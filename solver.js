@@ -21,6 +21,7 @@ function reset (){
     };
     cube.scrambleMoves = [];
     cube.displayLog("Cube Reset");
+    document.getElementById('output').innerHTML = '';
     cube.display("Initial Cube");
 }
 
