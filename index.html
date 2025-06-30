@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Rubik's Cube Solver</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Rubik's Cube Solver (Demo)</h1>
+    <div class="controls">
+        <button class="btn" onclick="reset()">Reset</button>
+        <button class="btn" onclick="scramble()">Scramble</button>
+        <button class="btn" onclick="solve()">Solve</button>
+        <button class="btn" onclick="clearScreen()">Clear</button>
+    </div>
+    <div class="wrapper">
+        <div id="output"></div>
+        <div id="logs"><span style="color: red;"><b>Logs</b></span></div>
+    </div>
+    <script src="cube.js"></script>
+    <script src="solver.js"></script>
+</body>
+
+</html>
