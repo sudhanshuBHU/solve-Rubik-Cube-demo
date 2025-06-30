@@ -23,6 +23,7 @@ function reset (){
     cube.displayLog("Cube Reset");
     document.getElementById('output').innerHTML = '';
     cube.display("Initial Cube");
+    cube.displayLog('Cube initialized with default colors.');
 }
 
 function scramble (){

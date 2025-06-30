@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,7 @@ body{
 .wrapper {
     display: flex;
     gap: 20px;
-    max-width: 80%;
+    /* max-width: 80%; */
     justify-content: center;
 }
 
@@ -16,18 +16,22 @@ body{
 #logs {
     flex: 1;
     font-family: 'consolas', serif;
-    border: 1px solid #ccc;
-    padding: 16px;
     box-sizing: border-box;
     min-height: 300px;
+    min-width: 200px;
     background: #fafafa;
 }
 
-#logs{
-      font-size: small;
+#output {
+    border: 1px solid #ccc;
+    padding: 16px;
 }
 
-.controls{
+#logs {
+    font-size: small;
+}
+
+.controls {
     display: flex;
     gap: 20px;
     padding-bottom: 1rem;
@@ -54,4 +58,9 @@ body{
     background: linear-gradient(90deg, #4f46e5 0%, #2563eb 100%);
     box-shadow: 0 4px 16px rgba(99, 102, 241, 0.25);
     transform: translateY(-2px) scale(1.03);
+}
+
+.logs-container {
+    border: 1px solid #ccc;
+    padding: 16px;
 }
